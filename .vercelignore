@@ -1,0 +1,5 @@
+# Serveur de dev local — inutile sur Vercel (statique uniquement)
+server.js
+server.log
+*.log
+node_modules
