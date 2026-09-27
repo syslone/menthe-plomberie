@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestion des cookies — Menthe Plomberie</title>
+  <meta name="description" content="Gestion des cookies du site de Menthe Plomberie : cookies utilisés, finalités et moyens de les accepter ou de les refuser." />
+  <meta name="robots" content="noindex, follow" />
+  <meta name="theme-color" content="#0d9a8b" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Menthe Plomberie, retour à l'accueil">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2.7c3.4 4 6 7.1 6 10.3a6 6 0 0 1-12 0c0-3.2 2.6-6.3 6-10.3Z" />
+          </svg>
+        </span>
+        <span class="logo__text">
+          <strong>Menthe<span>Plomberie</span></strong>
+          <small>Plomberie &amp; Dépannage</small>
+        </span>
+      </a>
+      <a href="index.html" class="btn btn--ghost">Retour au site</a>
+    </div>
+  </header>
+
+  <main class="legal">
+    <div class="container legal__inner">
+      <h1>Gestion des cookies</h1>
+      <p class="legal__updated">Cette page doit être mise à jour selon les outils réellement installés sur le site.</p>
+
+      <h2>1. Qu'est-ce qu'un cookie ?</h2>
+      <p>
+        Un cookie est un petit fichier déposé sur votre appareil lors de la visite d'un site. Il permet
+        notamment de mémoriser vos préférences ou de mesurer l'audience du site.
+      </p>
+
+      <h2>2. Cookies utilisés sur ce site</h2>
+      <ul>
+        <li><strong>Cookies strictement nécessaires :</strong> fonctionnement du site et de ses formulaires. Ils ne nécessitent pas de consentement.</li>
+        <li><strong>Cookies de mesure d'audience :</strong> statistiques de visite anonymisées — outil à préciser.</li>
+        <li><strong>Cookies tiers :</strong> aucun service tiers (publicité, réseaux sociaux) n'est installé par défaut sur ce site de démonstration.</li>
+      </ul>
+
+      <h2>3. Durée de conservation</h2>
+      <p>
+        La durée de vie des cookies est précisée par le service concerné. Un outil de mesure d'audience
+        est généralement conservé pour une durée maximale de 13 mois.
+      </p>
+
+      <h2>4. Accepter ou refuser les cookies</h2>
+      <p>
+        Vous pouvez à tout moment accepter ou refuser les cookies non essentiels via la bannière de
+        consentement ou depuis les réglages de votre navigateur. Le refus des cookies de mesure
+        d'audience n'empêche pas l'utilisation du site.
+      </p>
+      <ul>
+        <li>Chrome : Paramètres → Confidentialité et sécurité → Cookies et autres données des sites ;</li>
+        <li>Firefox : Paramètres → Vie privée et sécurité → Cookies et données de sites ;</li>
+        <li>Safari : Réglages → Safari → Confidentialité ;</li>
+        <li>Edge : Paramètres → Cookies et autorisations de site.</li>
+      </ul>
+
+      <h2>5. Pour en savoir plus</h2>
+      <p>
+        Consultez la <a href="politique-confidentialite.html">politique de confidentialité</a> pour
+        connaître le détail du traitement de vos données personnelles.
+      </p>
+
+      <a href="index.html" class="legal__back">← Retour à l'accueil</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Menthe Plomberie. Tous droits réservés.</p>
+      <nav class="footer__col" aria-label="Liens légaux">
+        <a href="mentions-legales.html">Mentions légales</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
